@@ -335,9 +335,3 @@ jBlock.match('page', function ()
 ```
 
 `replaceWith()` нужно вызывать в конце шаблона, так как после него действия над текущим контекстом будут невозможны.
-
-### Примеры шаблонов
-* [Селектор block__*](https://github.yandex-team.ru/kovchiy/blocks.common/blob/master/vert/vert.jblock.js)
-* [Зачем нужен jBlock.onLoad](https://github.yandex-team.ru/kovchiy/blocks.common/blob/master/page/page.jblock.js)
-* [Глобальные константы в свойстве import](https://github.yandex-team.ru/kovchiy/blocks.common/tree/master/import)
-* [Исключающие селекторы в has() и copy()](https://github.yandex-team.ru/kovchiy/blocks.common/blob/master/menu/menu.jblock.js)
