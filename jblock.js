@@ -285,7 +285,9 @@ jBlock =
                 BEM.DOM.decl(this._domDecl[i][0], this._domDecl[i][1])
 
         this._domDecl = null
-        BEM.DOM.init(domElem)
+
+        if (typeof BEM !== 'undefined')
+            BEM.DOM.init(domElem)
     },
 
     /*
